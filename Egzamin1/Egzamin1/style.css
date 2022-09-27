@@ -1,0 +1,47 @@
+body {
+  background-color: #f6e5dc;
+  font-family: Verdana;
+  height: 60vh;
+  margin: -20px;
+}
+.baner {
+  background-color: #2f180c;
+  text-align: center;
+  color: khaki;
+  height: 60px;
+}
+.panele {
+  display: flex;
+  height: 350px;
+}
+.lewa {
+  width: 60%;
+  display: inline;
+}
+.prawa {
+  width: 40%;
+  font-size: 150%;
+  padding: 70px;
+  display: inline;
+  margin: 0;
+}
+.checkbox {
+}
+.dol {
+  background-color: #d0b6a8;
+  text-align: center;
+}
+.input {
+  text-align: center;
+}
+.button {
+  margin: 10px;
+  padding: 5px;
+  background-color: #2f180c;
+  color: khaki;
+}
+.stopka {
+  background-color: #2f180c;
+  color: khaki;
+  height: 60px;
+}
