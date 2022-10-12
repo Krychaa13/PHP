@@ -21,4 +21,20 @@ if(mysqli_query($link, $sql)){
 
 mysqli_close($link);
 
+function wczytaj($servername, $username, $password, $database) {
+    $baza_polaczenie = new mysqli($servername, $username, $password, $database);
+
+    if ($baza_polaczenie->connect_error) {
+        return $baza_polaczenie->connection_error;
+    }
+
+    $sql = "SELECT nazwa, cena FROM dania LIMIT 3";
+    
+    $wyniki = $baza_polaczenie->query($sql);
+    
+    while ($row = mysqli_fetch_array($wyniki)) {
+        echo "<li>{$row['nazwa']} - {$row['cena']}zł</li>";
+    }
+}
+
 ?>
