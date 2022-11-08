@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica;
+}
+.baner {
+  background-color: #00838f;
+  color: white;
+  padding: 5px;
+  font-size: 130%;
+  text-align: center;
+}
+.srodek {
+  display: flex;
+}
+.lewa {
+  width: 55%;
+  background-color: #efefef;
+}
+.gora {
+  background-color: #efefef;
+  height: 150px;
+}
+.dol {
+  background-color: #efefef;
+  height: 300px;
+}
+.prawa {
+  background-color: #afb3bf;
+  width: 45%;
+  height: 490px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  text-shadow: 10px 10px 7px dimgray;
+  padding: 20px;
+}
+.stopka {
+  background-color: #00838f;
+  color: white;
+  padding: 5px;
+  font-size: 130%;
+  text-align: center;
+}
