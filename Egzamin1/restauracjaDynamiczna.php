@@ -19,9 +19,10 @@
         <div class="prawa">
           <h4>U nas dobrze zjesz</h4>
           <ol>
-            <li>Obiad od 40 zł</li>
-            <li>Przekąski od 10 zł</li>
-            <li>Kolacje od 20 zł</li>
+          <?php
+                require_once 'rezerwacja.php';
+                wczytaj("localhost", "root", "", "baza");
+            ?>
           </ol>
         </div>
       </div>
