@@ -17,7 +17,7 @@
           <h3>Ryby zamieszkujace rzeki</h3>
           <ol>
             <?php
-            include_once 'skrypt1.php'
+            include_once 'skrypt1.php';
 
             skrypt1();
             ?>
@@ -25,14 +25,14 @@
         </div>
         <div class="dol">
           <h3>Ryby drapierzne naszych wód</h3>
-          <table>
+          <table class="tabela">
             <tr>
               <th>L.p.</th>
               <th>Gatunek</th>
               <th>Wystepowanie</th>
             </tr>
             <?php
-            include_once 'skrypt2.php'
+            include_once 'skrypt2.php';
 
             skrypt2();
             ?>

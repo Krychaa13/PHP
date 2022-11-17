@@ -1,5 +1,9 @@
 body {
   font-family: Helvetica;
+  margin: 0;
+}
+h3 {
+  margin: 0;
 }
 .baner {
   background-color: #00838f;
@@ -23,17 +27,36 @@ body {
   background-color: #efefef;
   height: 300px;
 }
+.tabela {
+  border: 1px solid #4fb3bf;
+  margin: auto;
+  width: 80%;
+}
+tr {
+  border: 1px solid #4fb3bf;
+}
+th {
+  border: 1px solid #4fb3bf;
+}
+td {
+  border: 1px solid #4fb3bf;
+}
+tr :hover {
+  background-color: #4fb3bf;
+}
 .prawa {
-  background-color: #afb3bf;
+  background-color: #4fb3bf;
   width: 45%;
-  height: 490px;
+  height: 450px;
   text-align: center;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 img {
-  text-shadow: 10px 10px 7px dimgray;
-  padding: 20px;
+  width: 400px;
+  box-shadow: 10px 10px 7px dimgray;
+  margin: 0 auto;
 }
 .stopka {
   background-color: #00838f;
