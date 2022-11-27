@@ -1,0 +1,52 @@
+body {
+  background-color: #f6e5dc;
+  font-family: Verdana;
+  height: 100vh;
+  margin: 0;
+}
+.baner {
+  background-color: #2f180c;
+  text-align: center;
+  color: khaki;
+  height: 60px;
+}
+h1 {
+  margin: 0;
+}
+.panele {
+  display: flex;
+  height: 350px;
+}
+.lewa {
+  width: 60%;
+  display: inline;
+}
+.img {
+  height: 350px;
+}
+.prawa {
+  width: 40%;
+  font-size: 150%;
+  padding: 70px;
+  display: inline;
+  margin: 0;
+}
+.dol {
+  background-color: #d0b6a8;
+  text-align: center;
+  padding: 30px;
+}
+.button {
+  margin: 10px;
+  padding: 5px;
+  background-color: #2f180c;
+  color: khaki;
+}
+.stopka {
+  background-color: #2f180c;
+  color: khaki;
+  height: 60px;
+}
+p {
+  margin: 0;
+}
