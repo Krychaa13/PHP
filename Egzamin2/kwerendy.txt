@@ -6,7 +6,7 @@ WHERE wymiar_ochronny < 30;
 
 SELECT Ryby.nazwa, Ryby.wystepowanie, Lowisko.akwen, Lowisko.wojewodztwo
 FROM Ryby
-JOIN Lowisko ON Ryby.id = Lowisko.Ryby_id
+INNER JOIN Lowisko ON Ryby.id = Lowisko.Ryby_id
 WHERE Lowisko.rodzaj = 3;
 
 ALTER TABLE Ryby

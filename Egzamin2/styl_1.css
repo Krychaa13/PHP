@@ -27,21 +27,23 @@ h3 {
   background-color: #efefef;
   height: 300px;
 }
-.tabela {
-  border: 1px solid #4fb3bf;
-  margin: auto;
-  width: 80%;
-}
-tr {
-  border: 1px solid #4fb3bf;
-}
-th {
-  border: 1px solid #4fb3bf;
-}
+th,
 td {
   border: 1px solid #4fb3bf;
 }
-tr :hover {
+table tr {
+  margin: auto;
+  width: 80%;
+}
+table th {
+  padding: 4px;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #52b4bd;
+}
+.dol table tr:hover {
   background-color: #4fb3bf;
 }
 .prawa {
@@ -56,7 +58,7 @@ tr :hover {
 img {
   width: 400px;
   box-shadow: 10px 10px 7px dimgray;
-  margin: 0 auto;
+  margin: 20px;
 }
 .stopka {
   background-color: #00838f;
