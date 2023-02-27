@@ -1,0 +1,5 @@
+SELECT cena FROM farby WHERE kolor='niebieski';
+
+SELECT kolor, cena/pojemosc AS cena_jednego_litru FROM farby;
+
+SELECT farby.kolor FROM farby JOIN malowanie ON farby.id_farby = malowanie.id_farby WHERE malowanie.id_pomieszczenia=3;
