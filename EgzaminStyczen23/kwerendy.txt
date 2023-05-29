@@ -1,0 +1,22 @@
+‒ Zapytanie 1: wstawiające rekord do tabeli zawody_wedkarskie o wartościach: klucz główny
+nadawany automatycznie, Karty_wedkarskie_id - 2; Lowisko_id - 4; data_zawodow - „2021-09-28”; sedzia – Andrzej Nowak
+
+INSERT INTO zawody_wedkarskie (Karty_wedkarskie_id, Lowisko_id, data_zawodow, sedzia)
+VALUES (2, 4, '2021-09-28', 'Andrzej Nowak');
+
+
+‒ Zapytanie 2: wybierające jedynie pola id oraz data_zawodow z tabeli zawody_wedkarskie dla
+sędziego Krzysztofa Dobrowolskiego
+
+SELECT id, data_zawodow FROM zawody_wedkarskie WHERE sedzia = 'Krzysztof Dobrowolski';
+
+‒ Zapytanie 3: wybierające jedynie pola imie, nazwisko i punkty z tabeli karty_wedkarskie dla
+zwycięzcy zawodów wędkarskich o identyfikatorze 4 (identyfikator dotyczy zawodów, a nie
+wędkarza), należy użyć relacji
+
+SELECT imie, nazwisko, punkty FROM karty_wedkarskie JOIN zawody_wedkarskie ON karty_wedkarskie.id = zawody_wedkarskie.Karty_wedkarskie_id WHERE zawody_wedkarskie.id = 4;
+
+‒ Zapytanie 4: aktualizujące dane w tabeli karty_wedkarskie, wartość pola punkty dla rekordu
+o identyfikatorze 1 należy zwiększyć o 2
+
+UPDATE karty_wedkarskie SET punkty = punkty + 2 WHERE id = 1;

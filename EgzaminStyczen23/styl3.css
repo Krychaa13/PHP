@@ -1,0 +1,70 @@
+body {
+  font-family: Veranda;
+  margin: 0;
+}
+/* h1 {
+  margin: 0;
+} */
+.Header {
+  background-color: SeaGreen;
+  color: white;
+  height: 260px;
+  width: 100%;
+  font-size: 160%;
+  justify-content: space-between;
+  display: flex;
+}
+.Left {
+  width: 75%;
+}
+.Right {
+  width: 25%;
+  text-align: right;
+}
+img {
+  height: 260px;
+  width: 260px;
+  box-shadow: 15px 15px 10px DimGray;
+}
+.Main {
+  background-color: MintCream;
+  padding: 80px;
+}
+.Footer {
+  display: flex;
+  background-color: SeaGreen;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 70px;
+  text-align: center;
+}
+.LFooter {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  color: white;
+}
+.PFooter {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+}
+a {
+  background-color: MintCream;
+  color: SeaGreen;
+  padding: 15px;
+  text-decoration: none;
+  line-height: 70px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 20px;
+}
+button {
+  margin-bottom: 20px;
+}
