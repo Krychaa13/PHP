@@ -1,0 +1,21 @@
+- Zapytanie 1: wybierające wszystkie wiersze z tabeli pokoje
+
+SELECT * FROM pokoje;
+
+‒ Zapytanie 2: wybierające z tabeli rezerwacje jedynie id pokoju oraz sezon dla rezerwacji o liczbie
+dni przekraczającej tydzień
+
+SELECT id_pokoju, sezon FROM rezerwacje WHERE liczba_dni > 7;
+
+‒ Zapytanie 3: liczące sumę dni rezerwacji zimą
+
+SELECT SUM(liczba_dni) FROM rezerwacje WHERE sezon = 'zima';
+
+‒ Zapytanie 4: aktualizujące liczbę dni rezerwacji. Minimalna liczba dni rezerwacji to 4, dla rekordów,
+w których liczba dni jest mniejsza od 4 liczba ta jest zmieniana na 4
+
+UPDATE rezerwacje SET liczba_dni = 4 WHERE liczba_dni < 4;
+
+‒ Zapytanie 5: tworzące użytkownika najemca z hasłem n@JEM1@!
+
+CREATE USER najemca IDENTIFIED BY n@JEM1@!;
