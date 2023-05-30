@@ -1,0 +1,48 @@
+* {
+  font-family: Georgia;
+}
+body {
+  margin: 0;
+}
+.Header {
+  background-color: #c75b39;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.Main {
+  display: flex;
+}
+.Left {
+  background-color: #ff8a65;
+  width: 25%;
+  height: 500px;
+  padding-top: 50px;
+}
+.Right {
+  background-color: snow;
+  width: 75%;
+  height: 500px;
+  text-align: center;
+  padding-top: 50px;
+}
+img {
+  width: 25%;
+  margin: 10px;
+  box-shadow: 15px 15px 10px dimgray;
+}
+li {
+  margin: 5px;
+}
+li::marker {
+  color: snow;
+}
+h3 {
+  margin: 50px 0;
+}
+.Footer {
+  background-color: #c75b39;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
