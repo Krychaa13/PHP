@@ -24,7 +24,8 @@
         echo "<td>" . $row['cena'] . "</td>";
         echo "</tr>";
       }
-    
+
+      $q = mysqli_close($db)
       ?>  
       </table>
     </div>
