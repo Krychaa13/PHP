@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="stopka">
-      <p>Stronę wykonał: 00000000000</p>
+      <p>Stronę wykonał: 0530090901602</p>
     </div>
   </body>
 </html>
