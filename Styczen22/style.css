@@ -1,0 +1,60 @@
+* {
+    font_family: 'Helvetica';
+}
+body {
+    margin: 0;
+}
+.Header {
+    background-color: forestgreen;
+    color: white;
+    height: 100px;
+    display: flex;
+}
+.HeaderLeft {
+    height: 100px;
+    width: 80%;
+}
+.HeaderRight {
+    height: 100px;
+    width: 20%;
+}
+.Main {
+    display: flex;
+}
+.Lewy {
+    background-color: tan;
+    height: 700px;
+    width: 25%;
+}
+.Prawy {
+    background-color: tan;
+    height: 700px;
+    width: 75%;
+}
+.Footer {
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+}
+.img1 {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid forestgreen;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}
+.img1:hover {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid maroon;
+    border-radius: 20px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.img2 {
+    width: 80px;
+    height: 80px;
+}
